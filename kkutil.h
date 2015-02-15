@@ -10,5 +10,5 @@
 #define __sysTools__kkutil__
 
 #include <stdio.h>
-
+time_t uptime();
 #endif /* defined(__sysTools__kkutil__) */

@@ -68,7 +68,7 @@
 /*
  * Structure prepended to gmon.out profiling data file.
  */
-struct gmonhdr {
+typedef struct gmonhdr {
 	uint32_t lpc;		/* base pc address of sample buffer */
 	uint32_t hpc;		/* max pc address of sampled buffer */
 	uint32_t ncnt;		/* size of sample buffer (plus this header) */
